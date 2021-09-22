@@ -1,6 +1,11 @@
 import exit from os
 
-print("hola")
+def printHelloWorld():
+  print("Hola Mundo")
 
 def estoEsUnaFuncion:
-  exit()
+  printHelloWorld()
+
+estoEsUnaFuncion()
+
+
